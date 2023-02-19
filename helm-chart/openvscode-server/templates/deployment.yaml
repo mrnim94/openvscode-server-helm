@@ -21,6 +21,8 @@ spec:
         {{- include "openvscode-server.selectorLabels" . | nindent 8 }}
     spec:
       {{- if .Values.persistence.enabled }}
+      securityContext:
+        fsGroup: 1000
       volumes:
         - name: workspace
           persistentVolumeClaim:
