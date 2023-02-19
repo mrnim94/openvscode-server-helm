@@ -1,0 +1,13 @@
+{{- if .Values.persistence.enabled }}
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: workspace
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: {{ .Values.persistence.persistentVolumeClaim.workspace.size }}
+  storageClassName: {{ .Values.persistence.persistentVolumeClaim.workspace.storageClass }}
+{{- end }}

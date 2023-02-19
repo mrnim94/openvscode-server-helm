@@ -3,19 +3,9 @@ entries:
   openvscode-server:
   - apiVersion: v2
     appVersion: v1.75.1
-    created: "2023-02-19T00:14:15.309953067+07:00"
+    created: "2023-02-19T10:29:21.727806544Z"
     description: A Helm chart for Kubernetes
-    digest: b35a2fed82b4c06f283164ba859a86082b4d0864c5d04561226bff056f3bab35
-    name: openvscode-server
-    type: application
-    urls:
-    - openvscode-server-0.1.2.tgz
-    version: 0.1.2
-  - apiVersion: v2
-    appVersion: v1.75.1
-    created: "2023-02-19T00:14:15.30954259+07:00"
-    description: A Helm chart for Kubernetes
-    digest: 7cff918518f583e58c3cdab754ec542e2c7da52535fb68ab56def7f1bd0f2747
+    digest: eb7b1681edc7f8b12bd60d2404ed9825ffe66de5a225e761aa028b526dc0628a
     name: openvscode-server
     type: application
     urls:
@@ -23,7 +13,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: v1.74.2
-    created: "2023-02-19T00:14:15.309056154+07:00"
+    created: "2023-02-19T10:29:21.727230385Z"
     description: A Helm chart for Kubernetes
     digest: a22252b706f98793a76b01985287897cba8d2409ba622ef3e951447cf4762b46
     name: openvscode-server
@@ -31,4 +21,4 @@ entries:
     urls:
     - openvscode-server-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-19T00:14:15.308268115+07:00"
+generated: "2023-02-19T10:29:21.726511882Z"
