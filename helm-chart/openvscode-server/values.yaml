@@ -88,3 +88,6 @@ persistence:
     workspace:
       storageClass: "default"
       size: 5Gi
+
+dockerEvironment:
+  enabled: true

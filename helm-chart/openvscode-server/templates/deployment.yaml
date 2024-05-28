@@ -58,6 +58,26 @@ spec:
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
+          {{- if .Values.dockerEvironment.enabled }}
+          env:
+            - name: DOCKER_HOST
+              value: 'tcp://127.0.0.1:2375'
+          {{- end }}
+        # enable docker environment.
+        {{- if .Values.dockerEvironment.enabled }}
+        - command:
+            - dockerd-entrypoint.sh
+          env:
+            - name: DOCKER_TLS_CERTDIR
+          image: 'docker:23.0.1-dind'
+          imagePullPolicy: IfNotPresent
+          name: dind
+          resources: {}
+          securityContext:
+            privileged: true
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+        {{- end }}
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
