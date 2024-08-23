@@ -8,7 +8,7 @@ image:
   repository: gitpod/openvscode-server
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.91.0"
+  tag: "1.92.1"
 
 imagePullSecrets: []
 nameOverride: ""
