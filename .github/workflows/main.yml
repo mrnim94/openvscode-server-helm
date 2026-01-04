@@ -44,10 +44,6 @@ jobs:
           format: 'table'
           exit-code: '1'
           severity: 'CRITICAL'
-          trivyIgnores: 'request-trivy-ignore.txt'
-          #https://github.com/aquasecurity/trivy/issues/4826
-          #skip-files: '/go/pkg/mod/github.com/aws/aws-sdk-go-v2/service/sts@v1.21.4/api_op_GetAccessKeyInfo.go'
-          #skip-dirs: '/go/pkg/mod/github.com/aws/aws-sdk-go-v2/service'
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
