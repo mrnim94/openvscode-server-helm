@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: gitpod/openvscode-server
+  repository: antiantiops/vscode-browser-docker
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.105.1"
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -39,7 +39,7 @@ securityContext: {}
 service:
   annotations: {}
   type: ClusterIP
-  port: 3000
+  port: 8000
 
 ingress:
   enabled: false
