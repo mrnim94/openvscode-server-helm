@@ -2,7 +2,7 @@
 
 A lightweight, flexible Docker environment running the **official Microsoft Visual Studio Code Server (CLI)**.
 
-This repository provides a `Dockerfile` to build a remote development environment that retains full compatibility with proprietary Microsoft extensions, including **GitHub Copilot** and **Copilot Chat**, which often fail to run on standard open-source web IDE implementations.
+This repository ships a Helm chart that deploys a prebuilt image: **antiantiops/vscode-browser-docker**. Viewers can run the container immediately without building anything locally.
 
 ## 🚀 Why Use This Image?
 
@@ -11,40 +11,25 @@ While many web-based IDE solutions exist, most are built on the "Code OSS" (Open
 **Key Advantages:**
 
 * **🤖 Full GitHub Copilot Support:** Unlike generic open-source builds, this image runs the official server binary. This means **GitHub Copilot and Copilot Chat work out-of-the-box** without complex workarounds or authentication errors.
-  * ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/75a53409ed3e4b7a0ac119723943c77f3c3d48c55989d5c0.png)
+  * ![](https://raw.githubusercontent.com/mrnim94/openvscode-server-helm/refs/heads/master/docs/img/copilot-ui.png)
 * **🛒 Official Marketplace Access:** Direct access to the full Visual Studio Code Marketplace (not a third-party registry).
 * **🎯 Smart Versioning:** You are not forced to use the "latest" unstable build. You can pin specific versions (e.g., `1.85.1`) during the build process, and the Dockerfile intelligently resolves the correct Commit SHA for you.
 * **⚡ Sudo Access:** The environment comes with a non-root user (`coder`) pre-configured with passwordless `sudo` privileges, allowing you to install system packages on the fly.
 
 ## 🛠 Usage
 
-### 1. Build the Image
-
-You can build the latest version or target a specific VS Code release.
-
-**Option A: Build the Latest Version**
+### 1. Pull the Image
 
 ```plaintext
-docker build -t vscode-server:latest .
-```
-
-Option B: Build a Specific Version (Recommended for Stability)
-
-The build process automatically queries the API to find the correct commit hash for the version you provide.
-
-```plaintext
-# Example: Build version 1.85.1
-docker build --build-arg VSCODE_VERSION=1.85.1 -t vscode-server:1.85.1 .
+docker pull antiantiops/vscode-browser-docker:latest
 ```
 
 ### 2. Run the Container
 
-Run the container and map your project directory.
-
 ```plaintext
 docker run -it -p 8000:8000 \
   -v $(pwd):/home/coder/project \
-  vscode-server:latest
+  antiantiops/vscode-browser-docker:latest
 ```
 
 * **Access the IDE:** Open your browser and navigate to `http://localhost:8000`.
@@ -52,22 +37,22 @@ docker run -it -p 8000:8000 \
 
 ## ⚙️ Configuration
 
-| **Argument**     | **Default** | **Description**                                                                                                          |
-| ---------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------ |
-| `VSCODE_VERSION` | `latest`    | The specific version tag (e.g., `1.86.0`) or `latest`. The build script handles the Commit SHA resolution automatically. |
+For Helm values, see [helm-chart/openvscode-server/values.yaml](helm-chart/openvscode-server/values.yaml).
 
-Here is a professional, comprehensive `README.md` file designed for your repository. It highlights the advantages of using the official binary (specifically for Copilot) without explicitly naming other open-source alternatives, and includes the necessary legal disclaimers.
+## ☸️ Install on Kubernetes (Helm)
 
----
+Install the chart from Artifact Hub:
+
+https://artifacthub.io/packages/helm/openvscode-server-helm/openvscode-server
 
 ## ⚠️ Legal Disclaimer
 
 **Please read carefully before using:**
 
 1. **No Affiliation:** This project is **not affiliated, associated, authorized, endorsed by, or in any way officially connected with Microsoft Corporation** or Visual Studio Code.
-2. **Proprietary Software:** This `Dockerfile` downloads and installs the official Visual Studio Code Server CLI, which is proprietary software owned by Microsoft.
-3. **License Agreement:** By building and using this Docker image, you are effectively accepting the [**Visual Studio Code Server License Terms**](https://code.visualstudio.com/license).
-4. **No Redistribution:** This repository contains **only** the `Dockerfile` (build instructions). It does **not** host, distribute, or include any Microsoft binaries or executable files. All binaries are downloaded directly from Microsoft's official servers during the build process on your machine.
+2. **Proprietary Software:** This image includes the official Visual Studio Code Server CLI, which is proprietary software owned by Microsoft.
+3. **License Agreement:** By using this image, you are accepting the [**Visual Studio Code Server License Terms**](https://code.visualstudio.com/license).
+4. **Redistribution Notice:** This repository references a prebuilt image hosted on a container registry. Please ensure your usage complies with the applicable license terms.
 
 **Note on Usage:** This image is intended for personal development environments and testing. Please ensure your usage complies with Microsoft's terms of service regarding remote development and commercial hosting.
 

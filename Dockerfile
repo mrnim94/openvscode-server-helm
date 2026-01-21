@@ -2,7 +2,8 @@ FROM ubuntu:22.04
 
 # --- DEFINE VERSION VARIABLE ---
 # Default is 'latest'. You can specify a version like: '1.85.1', '1.84.0', etc.
-ARG VSCODE_VERSION='1.107.1'
+# https://code.visualstudio.com/updates
+ARG VSCODE_VERSION='1.108.1'
 
 # 1. Install necessary packages
 # Added 'jq' to process JSON responses from GitHub API
