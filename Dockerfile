@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 # --- DEFINE VERSION VARIABLE ---
 # Default is 'latest'. You can specify a version like: '1.85.1', '1.84.0', etc.
