@@ -3,7 +3,7 @@ FROM ubuntu:24.04
 # --- DEFINE VERSION VARIABLE ---
 # Default is 'latest'. You can specify a version like: '1.85.1', '1.84.0', etc.
 # https://code.visualstudio.com/updates
-ARG VSCODE_VERSION='1.108.1'
+ARG VSCODE_VERSION='1.109.0'
 
 # 1. Install necessary packages
 # Added 'jq' to process JSON responses from GitHub API
