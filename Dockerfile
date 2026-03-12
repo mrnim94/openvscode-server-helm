@@ -3,7 +3,7 @@ FROM ubuntu:24.04
 # --- DEFINE VERSION VARIABLE ---
 # Default is 'latest'. You can specify a version like: '1.85.1', '1.84.0', etc.
 # https://code.visualstudio.com/updates
-ARG VSCODE_VERSION='1.110.1'
+ARG VSCODE_VERSION='1.111.0'
 
 # 1. Install necessary packages
 # Added 'jq' to process JSON responses from GitHub API
@@ -13,6 +13,8 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     sudo \
     jq \
+    vim \
+    nano \
     && rm -rf /var/lib/apt/lists/*
 
 # 2. Logic to resolve Version -> Commit SHA -> Download URL
