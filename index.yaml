@@ -2,8 +2,28 @@ apiVersion: v1
 entries:
   openvscode-server:
   - apiVersion: v2
+    appVersion: 1.116.0
+    created: "2026-04-19T12:48:46.595716479Z"
+    description: A Helm chart for Kubernetes
+    digest: cba9cef81cb9756eed827c6a93581b55090cbd17528d81ad7b4297acf581fadc
+    home: https://nimtechnology.com/
+    icon: https://raw.githubusercontent.com/mrnim94/openvscode-server-helm/master/vscode-icon.png
+    keywords:
+    - vscode
+    - openvscode-server
+    maintainers:
+    - email: mr.nim94@gmail.com
+      name: Nim
+    name: openvscode-server
+    sources:
+    - https://github.com/mrnim94/openvscode-server-helm
+    type: application
+    urls:
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.7.6.tgz
+    version: 2.7.6
+  - apiVersion: v2
     appVersion: 1.115.0
-    created: "2026-04-13T04:53:33.80810312Z"
+    created: "2026-04-19T12:48:46.595317471Z"
     description: A Helm chart for Kubernetes
     digest: 94726a12966ad0b748dea54934f40bf0fbbb7f886d3e291905c4041d48561275
     home: https://nimtechnology.com/
@@ -19,11 +39,11 @@ entries:
     - https://github.com/mrnim94/openvscode-server-helm
     type: application
     urls:
-    - openvscode-server-2.7.5.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.7.5.tgz
     version: 2.7.5
   - apiVersion: v2
     appVersion: 1.111.0
-    created: "2026-04-13T04:53:33.807406264Z"
+    created: "2026-04-19T12:48:46.594928718Z"
     description: A Helm chart for Kubernetes
     digest: e48f982322059084bc12d69236d04503d1dbf9931db8f1ffd13de7343f5ebed8
     home: https://nimtechnology.com/
@@ -39,11 +59,11 @@ entries:
     - https://github.com/mrnim94/openvscode-server-helm
     type: application
     urls:
-    - openvscode-server-2.7.3.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.7.3.tgz
     version: 2.7.3
   - apiVersion: v2
     appVersion: 1.110.1
-    created: "2026-04-13T04:53:33.806651587Z"
+    created: "2026-04-19T12:48:46.594514406Z"
     description: A Helm chart for Kubernetes
     digest: 795cc1b3fdeae65a177000d67111e3e2dfa2404af266da9ff73a872fdb690758
     home: https://nimtechnology.com/
@@ -59,11 +79,11 @@ entries:
     - https://github.com/mrnim94/openvscode-server-helm
     type: application
     urls:
-    - openvscode-server-2.7.2.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.7.2.tgz
     version: 2.7.2
   - apiVersion: v2
     appVersion: 1.109.5
-    created: "2026-04-13T04:53:33.805965217Z"
+    created: "2026-04-19T12:48:46.594107406Z"
     description: A Helm chart for Kubernetes
     digest: 6cb3b59c7afd3463c4d8c3d3c91e345b9eda860f96493a58b198c4e58e6acb58
     home: https://nimtechnology.com/
@@ -79,11 +99,11 @@ entries:
     - https://github.com/mrnim94/openvscode-server-helm
     type: application
     urls:
-    - openvscode-server-2.7.1.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.7.1.tgz
     version: 2.7.1
   - apiVersion: v2
     appVersion: 1.109.0
-    created: "2026-04-13T04:53:33.805248843Z"
+    created: "2026-04-19T12:48:46.593657581Z"
     description: A Helm chart for Kubernetes
     digest: 4466975b58e90a861ec5ca2fa23552b44057d635bcc1a2f1c357161346043e01
     home: https://nimtechnology.com/
@@ -99,11 +119,11 @@ entries:
     - https://github.com/mrnim94/openvscode-server-helm
     type: application
     urls:
-    - openvscode-server-2.7.0.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.7.0.tgz
     version: 2.7.0
   - apiVersion: v2
     appVersion: 1.107.1
-    created: "2026-04-13T04:53:33.804585947Z"
+    created: "2026-04-19T12:48:46.592518462Z"
     description: A Helm chart for Kubernetes
     digest: 77be7aa7c677406c6cf5d16f21066008a8721161d44f8d5cf36a0afab84e4f80
     home: https://nimtechnology.com/
@@ -119,11 +139,11 @@ entries:
     - https://github.com/mrnim94/openvscode-server-helm
     type: application
     urls:
-    - openvscode-server-2.6.2.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.6.2.tgz
     version: 2.6.2
   - apiVersion: v2
     appVersion: latest
-    created: "2026-04-13T04:53:33.803900981Z"
+    created: "2026-04-19T12:48:46.592128497Z"
     description: A Helm chart for Kubernetes
     digest: ff835ba0b3eec2b0026675a21240deebe00ac7e2a055736fd0ded9f7cbdd81e1
     home: https://nimtechnology.com/
@@ -139,11 +159,11 @@ entries:
     - https://github.com/mrnim94/openvscode-server-helm
     type: application
     urls:
-    - openvscode-server-2.6.1.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.6.1.tgz
     version: 2.6.1
   - apiVersion: v2
     appVersion: latest
-    created: "2026-04-13T04:53:33.803257768Z"
+    created: "2026-04-19T12:48:46.591761437Z"
     description: A Helm chart for Kubernetes
     digest: 67dcde38f58462c0846514fdb69374415dea102e1e758c7cec652e37c158302c
     home: https://nimtechnology.com/
@@ -159,11 +179,11 @@ entries:
     - https://github.com/mrnim94/openvscode-server-helm
     type: application
     urls:
-    - openvscode-server-2.6.0.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.6.0.tgz
     version: 2.6.0
   - apiVersion: v2
     appVersion: v1.105.1
-    created: "2026-04-13T04:53:33.802610523Z"
+    created: "2026-04-19T12:48:46.591350961Z"
     description: A Helm chart for Kubernetes
     digest: ebe4677eb6a4c41d00a72f489eb888d67c85ae5451e5e26562bc902319345679
     home: https://nimtechnology.com/
@@ -179,11 +199,11 @@ entries:
     - https://github.com/mrnim94/openvscode-server-helm
     type: application
     urls:
-    - openvscode-server-2.5.0.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.5.0.tgz
     version: 2.5.0
   - apiVersion: v2
     appVersion: v1.101.1
-    created: "2026-04-13T04:53:33.801967187Z"
+    created: "2026-04-19T12:48:46.590965773Z"
     description: A Helm chart for Kubernetes
     digest: 004d72ec3e04e86487a3ba995e8efd299f77947216bf3fb3a8d17ea71a58da91
     home: https://nimtechnology.com/
@@ -199,11 +219,11 @@ entries:
     - https://github.com/mrnim94/openvscode-server-helm
     type: application
     urls:
-    - openvscode-server-2.4.0.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.4.0.tgz
     version: 2.4.0
   - apiVersion: v2
     appVersion: v1.96.4
-    created: "2026-04-13T04:53:33.80131041Z"
+    created: "2026-04-19T12:48:46.590551391Z"
     description: A Helm chart for Kubernetes
     digest: 7f807a9983aaac8d19e6634f4df407086245418e0aa2a498780978f2a604d2db
     home: https://nimtechnology.com/
@@ -219,11 +239,11 @@ entries:
     - https://github.com/mrnim94/openvscode-server-helm
     type: application
     urls:
-    - openvscode-server-2.3.0.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.3.0.tgz
     version: 2.3.0
   - apiVersion: v2
     appVersion: v1.92.1
-    created: "2026-04-13T04:53:33.800674983Z"
+    created: "2026-04-19T12:48:46.590161767Z"
     description: A Helm chart for Kubernetes
     digest: 153e84bafd19224d8c3ffae6730d5062a114499439124f62d5e61c5553bf150b
     home: https://nimtechnology.com/
@@ -239,166 +259,166 @@ entries:
     - https://github.com/mrnim94/openvscode-server-helm
     type: application
     urls:
-    - openvscode-server-2.2.0.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.2.0.tgz
     version: 2.2.0
   - apiVersion: v2
     appVersion: v1.91.0
-    created: "2026-04-13T04:53:33.79997356Z"
+    created: "2026-04-19T12:48:46.589769639Z"
     description: A Helm chart for Kubernetes
     digest: 5bef7f2aebe7cfcef963e571895387ca43287691cf3cd2a87e18dcdbd029607d
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-2.1.0.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.1.0.tgz
     version: 2.1.0
   - apiVersion: v2
     appVersion: v1.89.1
-    created: "2026-04-13T04:53:33.799366958Z"
+    created: "2026-04-19T12:48:46.589400916Z"
     description: A Helm chart for Kubernetes
     digest: ee5d0903e956e13b1a505055e13600ff96a9473ea1e8cb7f9df62a798a740a7e
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-2.0.0.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v2
     appVersion: v1.89.0
-    created: "2026-04-13T04:53:33.798216141Z"
+    created: "2026-04-19T12:48:46.589057821Z"
     description: A Helm chart for Kubernetes
     digest: 4708ee591e6eb1113758a76acc68646e95df87d435100a796096f8fa8cad1da1
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-1.0.6.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-1.0.6.tgz
     version: 1.0.6
   - apiVersion: v2
     appVersion: v1.87.1
-    created: "2026-04-13T04:53:33.796848855Z"
+    created: "2026-04-19T12:48:46.58872392Z"
     description: A Helm chart for Kubernetes
     digest: 718213644def91b1d056f0fbaf1e395dc0ce5ccae5818a171a58d3d4feb60fbc
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-1.0.5.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-1.0.5.tgz
     version: 1.0.5
   - apiVersion: v2
     appVersion: v1.85.1
-    created: "2026-04-13T04:53:33.796206879Z"
+    created: "2026-04-19T12:48:46.588379594Z"
     description: A Helm chart for Kubernetes
     digest: 0dc152b0da67f85a65eca5cf7faee15079e3f02ce7312a74f0942a438db68810
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-1.0.4.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-1.0.4.tgz
     version: 1.0.4
   - apiVersion: v2
     appVersion: v1.84.2
-    created: "2026-04-13T04:53:33.795292411Z"
+    created: "2026-04-19T12:48:46.588044972Z"
     description: A Helm chart for Kubernetes
     digest: 32d74f332a6b821284b231ba10844fc1b812040e96ceb16ca2161f44ce634266
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-1.0.3.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-1.0.3.tgz
     version: 1.0.3
   - apiVersion: v2
     appVersion: v1.83.0
-    created: "2026-04-13T04:53:33.794720521Z"
+    created: "2026-04-19T12:48:46.587723369Z"
     description: A Helm chart for Kubernetes
     digest: 64279a9319b7bf29f43162bbb7f8e20563d0e4de8a59b72a87470bedf4bc521f
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-1.0.2.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
     appVersion: v1.82.0
-    created: "2026-04-13T04:53:33.794090301Z"
+    created: "2026-04-19T12:48:46.587345242Z"
     description: A Helm chart for Kubernetes
     digest: 7e1f1e3c3cbd4c3f015ac937fe5d998e08762e874be80ba2eded48c00ea15e04
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-1.0.1.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
     appVersion: v1.81.1
-    created: "2026-04-13T04:53:33.793354765Z"
+    created: "2026-04-19T12:48:46.586999393Z"
     description: A Helm chart for Kubernetes
     digest: 5592542b135814a06ab458ecf873a19a180a245d270c7cf4a6b42462d1c86032
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-1.0.0.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v2
     appVersion: v1.81.0
-    created: "2026-04-13T04:53:33.792797108Z"
+    created: "2026-04-19T12:48:46.586561226Z"
     description: A Helm chart for Kubernetes
     digest: c075c8d3493dd2fd4316d0f388f1a0cca2aeaba650d176f0d239a8ae0998540d
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-0.1.9.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-0.1.9.tgz
     version: 0.1.9
   - apiVersion: v2
     appVersion: v1.80.1
-    created: "2026-04-13T04:53:33.79203519Z"
+    created: "2026-04-19T12:48:46.585659188Z"
     description: A Helm chart for Kubernetes
     digest: f13f6c7ccfebc1c187c3c11b6a674a8c7f287fdf19c4a636146d0cbcd49fce11
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-0.1.8.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v2
     appVersion: v1.80.1
-    created: "2026-04-13T04:53:33.791319925Z"
+    created: "2026-04-19T12:48:46.585051837Z"
     description: A Helm chart for Kubernetes
     digest: 9041a75746f57fcb531b9e67e4235ba46e61be7ad275d60bd730f5067597f56d
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-0.1.7.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
     appVersion: v1.79.2
-    created: "2026-04-13T04:53:33.790756414Z"
+    created: "2026-04-19T12:48:46.584723174Z"
     description: A Helm chart for Kubernetes
     digest: a19f9409cda1dc31eae187cd7646e566b34fc0c80710110a42062958ed101296
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-0.1.6.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v2
     appVersion: v1.75.1
-    created: "2026-04-13T04:53:33.790157389Z"
+    created: "2026-04-19T12:48:46.584362684Z"
     description: A Helm chart for Kubernetes
     digest: e968ebb7c18224fabd31fcb9a23d5941850b6479b28423e0ef0357444f996698
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-0.1.5.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v2
     appVersion: v1.75.1
-    created: "2026-04-13T04:53:33.78953244Z"
+    created: "2026-04-19T12:48:46.584014101Z"
     description: A Helm chart for Kubernetes
     digest: f2e43105968232bf7860563d684be3c43c502fc53f07984dbdb37ac7e31c6971
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-0.1.3.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
     appVersion: v1.74.2
-    created: "2026-04-13T04:53:33.788737518Z"
+    created: "2026-04-19T12:48:46.583669284Z"
     description: A Helm chart for Kubernetes
     digest: a22252b706f98793a76b01985287897cba8d2409ba622ef3e951447cf4762b46
     name: openvscode-server
     type: application
     urls:
-    - openvscode-server-0.1.0.tgz
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-13T04:53:33.787627193Z"
+generated: "2026-04-19T12:48:46.583172729Z"
