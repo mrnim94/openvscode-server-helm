@@ -41,7 +41,6 @@ RUN set -eux; \
         fi; \
         sleep 30; \
     done; \
-    file /tmp/vscode-cli.tar.gz; \
     gzip -t /tmp/vscode-cli.tar.gz; \
     tar -xzf /tmp/vscode-cli.tar.gz -C /usr/local/bin; \
     command -v code; \
