@@ -18,22 +18,65 @@ While many web-based IDE solutions exist, most are built on the "Code OSS" (Open
 
 ## 🛠 Usage
 
-### 1. Pull the Image
+You can run this image either locally with Docker/Docker Compose or on Kubernetes with the Helm chart.
 
-```plaintext
+### Option A: Run with Docker
+
+Pull the image:
+
+```bash
 docker pull antiantiops/vscode-browser-docker:latest
 ```
 
-### 2. Run the Container
+Run the container:
 
-```plaintext
-docker run -it -p 8000:8000 \
-  -v $(pwd):/home/coder/project \
+```bash
+docker run -it --rm \
+  --name openvscode-server \
+  -p 8000:8000 \
+  -v "$(pwd)/workspace:/home/antiantiops/project" \
   antiantiops/vscode-browser-docker:latest
 ```
 
-* **Access the IDE:** Open your browser and navigate to `http://localhost:8000`.
-* **Persist Data:** The command above maps your current directory to `/home/coder/project`. Any changes made inside that folder will be saved to your host machine.
+Open your browser and navigate to:
+
+```text
+http://localhost:8000
+```
+
+The command above mounts `./workspace` from your host to `/home/antiantiops/project` inside the container. Files created there are persisted on your host machine.
+
+### Option B: Run with Docker Compose
+
+Create the local workspace directory:
+
+```bash
+mkdir -p workspace
+```
+
+Start VS Code Server:
+
+```bash
+docker compose up -d
+```
+
+Open:
+
+```text
+http://localhost:8000
+```
+
+Stop it when finished:
+
+```bash
+docker compose down
+```
+
+This repository includes a ready-to-use [`docker-compose.yml`](docker-compose.yml) that:
+
+* exposes VS Code Server on port `8000`
+* mounts `./workspace` to `/home/antiantiops/project`
+* keeps `/home/antiantiops` data in a named Docker volume (`openvscode-home`)
 
 ## ⚙️ Configuration
 
