@@ -1,0 +1,15 @@
+services:
+  openvscode-server:
+    image: antiantiops/vscode-browser-docker:latest
+    container_name: openvscode-server
+    ports:
+      - "8000:8000"
+    volumes:
+      # Workspace mounted inside VS Code Server.
+      - ./workspace:/home/antiantiops/project
+      # Optional: persist VS Code/user data across container restarts.
+      - openvscode-home:/home/antiantiops
+    restart: unless-stopped
+
+volumes:
+  openvscode-home:
