@@ -3,7 +3,7 @@ FROM ubuntu:24.04
 # --- DEFINE VERSION VARIABLE ---
 # Default is 'latest'. You can specify a version like: '1.85.1', '1.84.0', etc.
 # https://code.visualstudio.com/updates
-ARG VSCODE_VERSION='1.123'
+ARG VSCODE_VERSION='1.124.0'
 ARG TARGETARCH
 ARG TARGETVARIANT
 
