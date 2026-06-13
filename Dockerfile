@@ -12,7 +12,6 @@ ARG TARGETVARIANT
 RUN apt-get update && apt-get install -y \
     curl \
     git \
-    build-essential \
     sudo \
     jq \
     vim \
