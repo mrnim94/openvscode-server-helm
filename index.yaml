@@ -2,8 +2,28 @@ apiVersion: v1
 entries:
   openvscode-server:
   - apiVersion: v2
+    appVersion: 1.126.0
+    created: "2026-06-25T05:03:27.807444919Z"
+    description: A Helm chart for Kubernetes
+    digest: 7fe361d9e86816d0a88462b0f65a9b337465afc77ab1b2080202cbe6d3b33243
+    home: https://nimtechnology.com/
+    icon: https://raw.githubusercontent.com/mrnim94/openvscode-server-helm/master/vscode-icon.png
+    keywords:
+    - vscode
+    - openvscode-server
+    maintainers:
+    - email: mr.nim94@gmail.com
+      name: Nim
+    name: openvscode-server
+    sources:
+    - https://github.com/mrnim94/openvscode-server-helm
+    type: application
+    urls:
+    - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-2.7.21.tgz
+    version: 2.7.21
+  - apiVersion: v2
     appVersion: 1.125.0
-    created: "2026-06-18T05:03:52.948202311Z"
+    created: "2026-06-25T05:03:27.807068964Z"
     description: A Helm chart for Kubernetes
     digest: 4a7cb42950a343863d47b14b069361692e3922fcdee38293f926afce79e94e05
     home: https://nimtechnology.com/
@@ -23,7 +43,7 @@ entries:
     version: 2.7.20
   - apiVersion: v2
     appVersion: 1.122.1
-    created: "2026-06-18T05:03:52.945734036Z"
+    created: "2026-06-25T05:03:27.80629508Z"
     description: A Helm chart for Kubernetes
     digest: ca786ba28fa0160579dc53062b3887ba0708e267c6911609172f45034598adad
     home: https://nimtechnology.com/
@@ -43,7 +63,7 @@ entries:
     version: 2.7.16
   - apiVersion: v2
     appVersion: 1.122.0
-    created: "2026-06-18T05:03:52.94534568Z"
+    created: "2026-06-25T05:03:27.805912135Z"
     description: A Helm chart for Kubernetes
     digest: ccb13fab7a98e3a9d22c70622a7b182ad2e7ace920042656d9c4bca1cd626603
     home: https://nimtechnology.com/
@@ -63,7 +83,7 @@ entries:
     version: 2.7.15
   - apiVersion: v2
     appVersion: 1.121.0
-    created: "2026-06-18T05:03:52.944946207Z"
+    created: "2026-06-25T05:03:27.805503891Z"
     description: A Helm chart for Kubernetes
     digest: 71bb1cf8ca809437622eef263551b4bad0e70fe971597f667ae22bce5b642d2f
     home: https://nimtechnology.com/
@@ -83,7 +103,7 @@ entries:
     version: 2.7.14
   - apiVersion: v2
     appVersion: 1.120.0
-    created: "2026-06-18T05:03:52.944499062Z"
+    created: "2026-06-25T05:03:27.805126224Z"
     description: A Helm chart for Kubernetes
     digest: 2935c8a7db38ca909b305f99d2936bfd4187fd9da1b30244a076a20d72152b59
     home: https://nimtechnology.com/
@@ -103,7 +123,7 @@ entries:
     version: 2.7.13
   - apiVersion: v2
     appVersion: 1.119.1
-    created: "2026-06-18T05:03:52.944094642Z"
+    created: "2026-06-25T05:03:27.804741505Z"
     description: A Helm chart for Kubernetes
     digest: 49ff0d7e9c220c26bb13f00ee8828f567a41e936cd4e6e5f1441ceb7bffc8750
     home: https://nimtechnology.com/
@@ -123,7 +143,7 @@ entries:
     version: 2.7.12
   - apiVersion: v2
     appVersion: 1.119.0
-    created: "2026-06-18T05:03:52.943676771Z"
+    created: "2026-06-25T05:03:27.804322205Z"
     description: A Helm chart for Kubernetes
     digest: b8572f6a83c3248b0bf030617af0f4089f2a17f9d0435fdff735b3a801cfc4b6
     home: https://nimtechnology.com/
@@ -143,7 +163,7 @@ entries:
     version: 2.7.10
   - apiVersion: v2
     appVersion: 1.117.0
-    created: "2026-06-18T05:03:52.949945451Z"
+    created: "2026-06-25T05:03:27.808988218Z"
     description: A Helm chart for Kubernetes
     digest: 18be4c99382acfa6708b70c26c41dafbb2a84304ee27ec8977f39b5221b8f00f
     home: https://nimtechnology.com/
@@ -163,7 +183,7 @@ entries:
     version: 2.7.7
   - apiVersion: v2
     appVersion: 1.116.0
-    created: "2026-06-18T05:03:52.949506449Z"
+    created: "2026-06-25T05:03:27.808610641Z"
     description: A Helm chart for Kubernetes
     digest: cba9cef81cb9756eed827c6a93581b55090cbd17528d81ad7b4297acf581fadc
     home: https://nimtechnology.com/
@@ -183,7 +203,7 @@ entries:
     version: 2.7.6
   - apiVersion: v2
     appVersion: 1.115.0
-    created: "2026-06-18T05:03:52.949094417Z"
+    created: "2026-06-25T05:03:27.808219593Z"
     description: A Helm chart for Kubernetes
     digest: 94726a12966ad0b748dea54934f40bf0fbbb7f886d3e291905c4041d48561275
     home: https://nimtechnology.com/
@@ -203,7 +223,7 @@ entries:
     version: 2.7.5
   - apiVersion: v2
     appVersion: 1.111.0
-    created: "2026-06-18T05:03:52.94863293Z"
+    created: "2026-06-25T05:03:27.80784508Z"
     description: A Helm chart for Kubernetes
     digest: e48f982322059084bc12d69236d04503d1dbf9931db8f1ffd13de7343f5ebed8
     home: https://nimtechnology.com/
@@ -223,7 +243,7 @@ entries:
     version: 2.7.3
   - apiVersion: v2
     appVersion: 1.110.1
-    created: "2026-06-18T05:03:52.946171306Z"
+    created: "2026-06-25T05:03:27.806689013Z"
     description: A Helm chart for Kubernetes
     digest: 795cc1b3fdeae65a177000d67111e3e2dfa2404af266da9ff73a872fdb690758
     home: https://nimtechnology.com/
@@ -243,7 +263,7 @@ entries:
     version: 2.7.2
   - apiVersion: v2
     appVersion: 1.109.5
-    created: "2026-06-18T05:03:52.943285361Z"
+    created: "2026-06-25T05:03:27.803924778Z"
     description: A Helm chart for Kubernetes
     digest: 6cb3b59c7afd3463c4d8c3d3c91e345b9eda860f96493a58b198c4e58e6acb58
     home: https://nimtechnology.com/
@@ -263,7 +283,7 @@ entries:
     version: 2.7.1
   - apiVersion: v2
     appVersion: 1.109.0
-    created: "2026-06-18T05:03:52.942894281Z"
+    created: "2026-06-25T05:03:27.80346686Z"
     description: A Helm chart for Kubernetes
     digest: 4466975b58e90a861ec5ca2fa23552b44057d635bcc1a2f1c357161346043e01
     home: https://nimtechnology.com/
@@ -283,7 +303,7 @@ entries:
     version: 2.7.0
   - apiVersion: v2
     appVersion: 1.107.1
-    created: "2026-06-18T05:03:52.942485594Z"
+    created: "2026-06-25T05:03:27.802388339Z"
     description: A Helm chart for Kubernetes
     digest: 77be7aa7c677406c6cf5d16f21066008a8721161d44f8d5cf36a0afab84e4f80
     home: https://nimtechnology.com/
@@ -303,7 +323,7 @@ entries:
     version: 2.6.2
   - apiVersion: v2
     appVersion: latest
-    created: "2026-06-18T05:03:52.942069366Z"
+    created: "2026-06-25T05:03:27.801989399Z"
     description: A Helm chart for Kubernetes
     digest: ff835ba0b3eec2b0026675a21240deebe00ac7e2a055736fd0ded9f7cbdd81e1
     home: https://nimtechnology.com/
@@ -323,7 +343,7 @@ entries:
     version: 2.6.1
   - apiVersion: v2
     appVersion: latest
-    created: "2026-06-18T05:03:52.941668361Z"
+    created: "2026-06-25T05:03:27.801606474Z"
     description: A Helm chart for Kubernetes
     digest: 67dcde38f58462c0846514fdb69374415dea102e1e758c7cec652e37c158302c
     home: https://nimtechnology.com/
@@ -343,7 +363,7 @@ entries:
     version: 2.6.0
   - apiVersion: v2
     appVersion: v1.105.1
-    created: "2026-06-18T05:03:52.941287346Z"
+    created: "2026-06-25T05:03:27.801210519Z"
     description: A Helm chart for Kubernetes
     digest: ebe4677eb6a4c41d00a72f489eb888d67c85ae5451e5e26562bc902319345679
     home: https://nimtechnology.com/
@@ -363,7 +383,7 @@ entries:
     version: 2.5.0
   - apiVersion: v2
     appVersion: v1.101.1
-    created: "2026-06-18T05:03:52.940886641Z"
+    created: "2026-06-25T05:03:27.800829336Z"
     description: A Helm chart for Kubernetes
     digest: 004d72ec3e04e86487a3ba995e8efd299f77947216bf3fb3a8d17ea71a58da91
     home: https://nimtechnology.com/
@@ -383,7 +403,7 @@ entries:
     version: 2.4.0
   - apiVersion: v2
     appVersion: v1.96.4
-    created: "2026-06-18T05:03:52.940460838Z"
+    created: "2026-06-25T05:03:27.800424998Z"
     description: A Helm chart for Kubernetes
     digest: 7f807a9983aaac8d19e6634f4df407086245418e0aa2a498780978f2a604d2db
     home: https://nimtechnology.com/
@@ -403,7 +423,7 @@ entries:
     version: 2.3.0
   - apiVersion: v2
     appVersion: v1.92.1
-    created: "2026-06-18T05:03:52.940010749Z"
+    created: "2026-06-25T05:03:27.800040109Z"
     description: A Helm chart for Kubernetes
     digest: 153e84bafd19224d8c3ffae6730d5062a114499439124f62d5e61c5553bf150b
     home: https://nimtechnology.com/
@@ -423,7 +443,7 @@ entries:
     version: 2.2.0
   - apiVersion: v2
     appVersion: v1.91.0
-    created: "2026-06-18T05:03:52.938999093Z"
+    created: "2026-06-25T05:03:27.79964111Z"
     description: A Helm chart for Kubernetes
     digest: 5bef7f2aebe7cfcef963e571895387ca43287691cf3cd2a87e18dcdbd029607d
     name: openvscode-server
@@ -433,7 +453,7 @@ entries:
     version: 2.1.0
   - apiVersion: v2
     appVersion: v1.89.1
-    created: "2026-06-18T05:03:52.938363844Z"
+    created: "2026-06-25T05:03:27.799276532Z"
     description: A Helm chart for Kubernetes
     digest: ee5d0903e956e13b1a505055e13600ff96a9473ea1e8cb7f9df62a798a740a7e
     name: openvscode-server
@@ -443,7 +463,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: v1.89.0
-    created: "2026-06-18T05:03:52.938030832Z"
+    created: "2026-06-25T05:03:27.798925254Z"
     description: A Helm chart for Kubernetes
     digest: 4708ee591e6eb1113758a76acc68646e95df87d435100a796096f8fa8cad1da1
     name: openvscode-server
@@ -453,7 +473,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: v1.87.1
-    created: "2026-06-18T05:03:52.937678079Z"
+    created: "2026-06-25T05:03:27.798580135Z"
     description: A Helm chart for Kubernetes
     digest: 718213644def91b1d056f0fbaf1e395dc0ce5ccae5818a171a58d3d4feb60fbc
     name: openvscode-server
@@ -463,7 +483,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: v1.85.1
-    created: "2026-06-18T05:03:52.937330635Z"
+    created: "2026-06-25T05:03:27.798234596Z"
     description: A Helm chart for Kubernetes
     digest: 0dc152b0da67f85a65eca5cf7faee15079e3f02ce7312a74f0942a438db68810
     name: openvscode-server
@@ -473,7 +493,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: v1.84.2
-    created: "2026-06-18T05:03:52.936996261Z"
+    created: "2026-06-25T05:03:27.797890709Z"
     description: A Helm chart for Kubernetes
     digest: 32d74f332a6b821284b231ba10844fc1b812040e96ceb16ca2161f44ce634266
     name: openvscode-server
@@ -483,7 +503,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: v1.83.0
-    created: "2026-06-18T05:03:52.936590699Z"
+    created: "2026-06-25T05:03:27.797523176Z"
     description: A Helm chart for Kubernetes
     digest: 64279a9319b7bf29f43162bbb7f8e20563d0e4de8a59b72a87470bedf4bc521f
     name: openvscode-server
@@ -493,7 +513,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: v1.82.0
-    created: "2026-06-18T05:03:52.936089031Z"
+    created: "2026-06-25T05:03:27.797181132Z"
     description: A Helm chart for Kubernetes
     digest: 7e1f1e3c3cbd4c3f015ac937fe5d998e08762e874be80ba2eded48c00ea15e04
     name: openvscode-server
@@ -503,7 +523,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: v1.81.1
-    created: "2026-06-18T05:03:52.935723249Z"
+    created: "2026-06-25T05:03:27.796825708Z"
     description: A Helm chart for Kubernetes
     digest: 5592542b135814a06ab458ecf873a19a180a245d270c7cf4a6b42462d1c86032
     name: openvscode-server
@@ -513,7 +533,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: v1.81.0
-    created: "2026-06-18T05:03:52.935210025Z"
+    created: "2026-06-25T05:03:27.796383343Z"
     description: A Helm chart for Kubernetes
     digest: c075c8d3493dd2fd4316d0f388f1a0cca2aeaba650d176f0d239a8ae0998540d
     name: openvscode-server
@@ -523,7 +543,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: v1.80.1
-    created: "2026-06-18T05:03:52.934817292Z"
+    created: "2026-06-25T05:03:27.795319253Z"
     description: A Helm chart for Kubernetes
     digest: f13f6c7ccfebc1c187c3c11b6a674a8c7f287fdf19c4a636146d0cbcd49fce11
     name: openvscode-server
@@ -533,7 +553,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: v1.80.1
-    created: "2026-06-18T05:03:52.934437159Z"
+    created: "2026-06-25T05:03:27.795003198Z"
     description: A Helm chart for Kubernetes
     digest: 9041a75746f57fcb531b9e67e4235ba46e61be7ad275d60bd730f5067597f56d
     name: openvscode-server
@@ -543,7 +563,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: v1.79.2
-    created: "2026-06-18T05:03:52.933936693Z"
+    created: "2026-06-25T05:03:27.794674134Z"
     description: A Helm chart for Kubernetes
     digest: a19f9409cda1dc31eae187cd7646e566b34fc0c80710110a42062958ed101296
     name: openvscode-server
@@ -553,7 +573,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: v1.75.1
-    created: "2026-06-18T05:03:52.933527826Z"
+    created: "2026-06-25T05:03:27.794316867Z"
     description: A Helm chart for Kubernetes
     digest: e968ebb7c18224fabd31fcb9a23d5941850b6479b28423e0ef0357444f996698
     name: openvscode-server
@@ -563,7 +583,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: v1.75.1
-    created: "2026-06-18T05:03:52.933079119Z"
+    created: "2026-06-25T05:03:27.793948143Z"
     description: A Helm chart for Kubernetes
     digest: f2e43105968232bf7860563d684be3c43c502fc53f07984dbdb37ac7e31c6971
     name: openvscode-server
@@ -573,7 +593,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: v1.74.2
-    created: "2026-06-18T05:03:52.932653757Z"
+    created: "2026-06-25T05:03:27.793486879Z"
     description: A Helm chart for Kubernetes
     digest: a22252b706f98793a76b01985287897cba8d2409ba622ef3e951447cf4762b46
     name: openvscode-server
@@ -581,4 +601,4 @@ entries:
     urls:
     - https://mrnim94.github.io/openvscode-server-helm/openvscode-server-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-18T05:03:52.931923365Z"
+generated: "2026-06-25T05:03:27.792990804Z"
